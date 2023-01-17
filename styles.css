@@ -58,3 +58,43 @@ nav ul li a:hover{
   transition: all 0.3s ease;
   transform: scale(1.095);
 }
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1{
+  color: white;
+  margin: 20px 0 20px;
+  font-style: 75px;
+}
+h3{
+  color: white;
+  font-style: 25px;
+  margin-bottom: 50px;
+}
+h4{
+  color: rgb(255, 198, 208);
+  letter-spacing: 2px;
+  font-style: 20px;
+}
+.newsletter form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newsletter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #f9004d;
+  border-radius: 30px;
+}
+.newsletter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px ;
+}
