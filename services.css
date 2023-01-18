@@ -2,21 +2,36 @@
 .service{
   background: #101010;
   width: 100%;
-  padding: 100px 0;
+  padding: 40px 0;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .title h2{
-  color: white;
   font-size: 75px;
   width: 1130px;
+  max-width: 100%;
   margin: 30px auto;
   text-transform: capitalize;
   text-align: center;
+  background-image: linear-gradient(to top, rgb(255, 200, 200) 0%,
+  #ff84ab 20%, #ff5b8f 50%,
+  #ff2067 70%, #f9004d 100%);
+  -Webkit-background-clip: text;
+  -moz-background-clip:text ;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 90%;
 }
 .box{
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 400px;
+  flex-wrap: wrap;
 }
 .card{
   height: 365px;
@@ -28,6 +43,7 @@
   position: relative;
   overflow: hidden;
   text-align: center;
+  border: solid 2px rgb(245, 245, 245);
 }
 .card i{
   font-size: 50px;

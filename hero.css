@@ -30,6 +30,14 @@ nav{
   letter-spacing: 1px;
   cursor: pointer;
   position: relative;
+  background-image: linear-gradient(to right, #f8155d 0%,
+                                   #d40043 25%, #ff3273 50%,
+                                   #ff739f 75%, #ffbbd1 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 50%;
 }
 span{
   color: #f9004d;
@@ -99,6 +107,14 @@ h1{
   color: white;
   margin: 20px 0 20px;
   font-size: 70px;
+  background-image: linear-gradient(to top, rgb(255, 200, 200) 0%,
+                                    #ff84ab 20%, #ff5b8f 50%,
+                                    #ff2067 70%, #f9004d 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color:transparent;
+  background-size: 100%;
 }
 h3{
   font-size: 30px;
@@ -147,4 +163,5 @@ h4{
   box-shadow: 0 0 5px #000, 0 0 15px #858585;
   top: 6px;
   right: 6px;
+  cursor: pointer;
 }

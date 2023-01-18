@@ -2,8 +2,8 @@
 footer{
   position: relative;
   width: 100%;
-  height: 400px;
-  background:#101010;
+  height: 300px;
+  background:rgb(15, 15, 15) ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,9 +11,16 @@ footer{
 }
 footer p:nth-child(1){
 font-size: 30px;
-color: white;
 margin-bottom: 20px;
 font-weight: bold;
+background-image: linear-gradient(to top, rgb(255, 200, 200) 0%,
+  #ff84ab 20%, #ff5b8f 50%,
+  #ff2067 70%, #f9004d 100%);
+  -Webkit-background-clip: text;
+  -moz-background-clip:text ;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 90%;
 }
 footer p:nth-child(2){
   color: white;
@@ -21,6 +28,10 @@ footer p:nth-child(2){
   width: 500px;
   text-align: center;
   line-height: 26px;
+}
+footer p:nth-child(2) a{
+  color: #f9004d;
+  font-size: 18px;
 }
 .social{
   display: flex;
@@ -43,8 +54,15 @@ footer p:nth-child(2){
   transition: all 0.25s ease-in-out;
 }
 .end{
-  position: absolute;
   color: #f9004d;
   bottom: 35px;
   font-size: 14px;
+}
+.end-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+  border-top: dotted 1px rgb(245, 245, 245);
 }
