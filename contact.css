@@ -1,0 +1,31 @@
+
+.contact-me{
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center ;
+}
+.contact-me p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contact-me .button-two{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px ;
+  border-radius: 30px;
+}
+.contact-me .button-two:hover{
+  transition: all 0.3s ease;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #f9004d;
+}

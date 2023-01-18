@@ -8,6 +8,12 @@
   <title>@allashe.com</title>
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="services.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
@@ -20,31 +26,33 @@
   <div class="hero">
     <nav>
       <h2 class="logo">Portfo<span>lio</span></h2>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About Us</a></li>
-        <li><a href="/">Services</a></li>
-        <li><a href="/">Skills</a></li>
-        <li><a href="/">Contact Us</a></li>
-      </ul>
-      <a href="" class="btn">Subscribe</a>
+      <div class="container">
+        <div class="details"><a href="/">Home</a></div>
+        <div class="details"><a href="/">About Us</a></div>
+        <div class="details"><a href="/">Services</a></div>
+        <div class="details"><a href="/">Skills</a></div>
+        <div class="details"><a href="/">Contact Us</a></div>
+      </div>
+      <div class="subscribe">
+        <a href="" class="btn">Subscribe</a>
+      </div>
     </nav>
 
-      <div class="content">
-        <h4>Hello... my name is</h4>
-        <h1>Allan <span>Lenny</span></h1>
-        <h3>I am a web Developer.</h3>
-        <div class="newsletter">
-          <form action="">
-            <input type="email" id="mail" placeholder="Enter Your Email">
-            <input type="submit" name="submit" value="Lets Start">
-          </form>
-        </div>
+    <div class="content">
+      <h4>Hello... My name is</h4>
+      <h1>Allan <span>Lenny</span></h1>
+      <h3>I am a web Developer.</h3>
+      <div class="newsletter">
+        <form action="">
+          <input type="email" id="mail" placeholder="Enter Your Email">
+          <input type="submit" name="submit" value="Lets Start">
+        </form>
       </div>
+    </div>
 
   </div>
 
-  <!-- about section starts -->
+  <!-- about section part -->
   <section class="about">
     <div class="main">
       <img src="images/pic3.jpg" alt="/">
@@ -126,6 +134,7 @@
       <a href="/"><i class="fab fa-instagram"></i></a>
       <a href="/"><i class="fab fa-whatsapp"></i></a>
       <a href="/"><i class="fab fa-youtube"></i></a>
+      <a href="/"><i class="fab fa-linkedin"></i></a>
     </div>
     <p class="end">@CopyRight By Allan Lenny</p>
   </footer>
