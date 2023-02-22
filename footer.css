@@ -20,7 +20,7 @@ background-image: linear-gradient(to top, rgb(255, 200, 200) 0%,
   -moz-background-clip:text ;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-size: 90%;
+  background-size: 100%;
 }
 footer p:nth-child(2){
   color: white;

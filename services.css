@@ -24,7 +24,7 @@
   -moz-background-clip:text ;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-size: 90%;
+  background-size: 100%;
 }
 .box{
   display: flex;
@@ -44,6 +44,11 @@
   overflow: hidden;
   text-align: center;
   border: solid 2px rgb(245, 245, 245);
+}
+.card:hover{
+  transform: scale(1.065);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .card i{
   font-size: 50px;

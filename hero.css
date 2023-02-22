@@ -22,7 +22,7 @@ nav{
   left: 0;
   height: 80px;
   z-index: 500;
-  border-bottom: solid 2px rgb(245, 245, 245);
+  border-bottom: solid 1px rgb(245, 245, 245);
 }
 .logo{
   color: white;

@@ -7,14 +7,29 @@
 .about img{
   height: auto;
   width: 430px;
+  border-radius: 20px;
+}
+.about img:hover{
+  transform: scale(1.065);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .about-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   max-width: 550px;
   width: 100%;
   border: solid 2px rgb(245, 245, 245);
   margin-left: 10px;
   padding: 20px;
   border-radius: 20px;
+}
+.about-text:hover{
+  transform: scale(1.065);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .main{
   width: 1130px;
@@ -36,7 +51,7 @@
   -moz-background-clip:text ;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-size: 90%;
+  background-size: 100%;
 }
 .about-text h5{
   color: white;
@@ -51,7 +66,7 @@
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 45px;
-  text-align: justify;
+  text-align: center;
 }
 button{
   background-color: #f9004d;
